@@ -105,3 +105,24 @@ ul li a {
 .hero-parent-root{
     background-color: rgb(217, 215, 211);
 }
+/* about us */
+.about-parent{
+    background-color: rgb(217, 215, 211);
+     margin:20px auto; /*ekhne 70 er pore 0 dile majeh ase na auto dile ase */
+     border-radius: 10px;
+     padding: 75px;
+     text-align: center;
+}
+.about-parent p{
+    margin:10px 0;
+}
+.about-box-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.about-box-parent .box{
+    background-color: rgb(225, 119, 57);
+    padding: 5px;
+    border-radius: 5px;
+}
