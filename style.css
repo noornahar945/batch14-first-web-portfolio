@@ -213,3 +213,22 @@ ul li a {
 .box-6{
     grid-area:six;
 }
+/* footer */
+footer{
+    text-align: center;
+    margin-top: 70px !important; /*ekhne exclamatory sign diye important likhehchi karon amr re-useable container e margin auto apply korecilam ja footer eo apply kora hoyecheh ,,,jehetu margin top margin er ekta elemant tai kaj kortesilo na tai important set kore kaj korano lagse    */
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    background-color: #757575;
+    padding: 20px;
+    border-radius: 8px;
+}
+footer form input{
+    border:none;
+    outline: none;
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    
+}
