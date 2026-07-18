@@ -110,7 +110,8 @@ ul li a {
     background-color: rgb(217, 215, 211);
      margin:20px auto; /*ekhne 70 er pore 0 dile majeh ase na auto dile ase */
      border-radius: 10px;
-     padding: 75px;
+     padding: 80px;
+   
      text-align: center;
 }
 .about-parent p{
@@ -150,4 +151,28 @@ ul li a {
    color:#757575;
     font-size: 15px;
 
+}
+/* resume section */
+
+.root-parent-resume-section{
+    margin: 60px auto;
+    text-align: center;
+    
+}
+ /* .root-parent-resume-section div{
+    margin: 60px auto;
+    text-align: center;
+    align-items: center;
+ }  */
+.parent-resume{
+   
+ /* display: flex;
+    justify-content: space-between;
+    flex-direction: column; */
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    margin-top: 30px;
+    gap: 15px;
+    text-align: center;
+    padding: 20px;
 }
